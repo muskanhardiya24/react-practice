@@ -64,6 +64,7 @@ class App extends React.Component
 
   unmountFunction = () =>
   {
+    console.log("testing git commit")
     this.setState({classComponent: "Class component unmounted now"})
   }
 
